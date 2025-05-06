@@ -1,0 +1,85 @@
+{
+    "start": {
+      "text": "Are you ready, mademoiselle???? \n you're about to get to know this dumb boy \n even more!!!",
+      "image": "images/welcome.jpg",
+      "choices": [
+        { "text": "Yes", "next": "enterForest" },
+        { "text": "No",  "next": "stayHome" }
+      ]
+    },
+    "enterForest": {
+      "text": "well it might get a little bored \n or you might think of it as \n an intense conversation \n so are you really sure??",
+      "image": "images/rusc.jpg",
+      "choices": [
+        { "text": "Yes", "next": "enterDeeper" },
+        { "text": "No",  "next": "stayHome" }
+      ]
+    },
+    "stayHome": {
+      "text": "Maybe another time. Goodbye!",
+      "image": "images/dukh.mp4",
+      "choices": []
+    },
+    "enterDeeper": {
+      "text": "PAKKA NA??????",
+      "image": "images/rusc.jpg",
+      "choices": [
+        { "text": "Yes", "next": "heart" },
+        { "text": "No",  "next": "stayHome" }
+      ]
+    },
+    "heart": {
+      "text": "well you're in for it",
+      "image": "images/intro.jpg",
+      "choices": [
+        { "text": "next page", "next": "heart2" },
+        { "text": "No", "next": "stayHome" }
+      ]
+    },
+    "heart2": {
+      "text": "next page of this silly saga",
+      "image": "images/p2.jpg",
+      "choices": [
+        { "text": "next page", "next": "heart3" },
+        { "text": "Stop", "next": "stayHome" }
+      ]
+    },
+    "heart3": {
+      "text": "still scrolling huh?",
+      "image": "images/p3.jpg",
+      "choices": [
+        { "text": "next page", "next": "heart4" },
+        { "text": "No more", "next": "stayHome" }
+      ]
+    },
+    "heart4": {
+      "text": "you're getting closer...",
+      "image": "images/p4.jpg",
+      "choices": [
+        { "text": "next page", "next": "heart5" },
+        { "text": "Back out", "next": "stayHome" }
+      ]
+    },
+    "heart5": {
+      "text": "almost there, I promise",
+      "image": "images/p5.jpg",
+      "choices": [
+        { "text": "next page", "next": "heart6" },
+        { "text": "Quit now", "next": "stayHome" }
+      ]
+    },
+    "heart6": {
+      "text": "this is it. the final reveal.",
+      "image": "images/p6.jpg",
+      "choices": [
+        { "text": "Go home", "next": "imglad" }
+      ]
+    },
+    "imglad": {
+    "text": "thankuuuuuuuuu malkinnnnnnnn!!!!!!!!",
+    "image": "images/theend.jpg"
+    
+    }
+  }
+  
+  

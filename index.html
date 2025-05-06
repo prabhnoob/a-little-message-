@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adventure Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="focusNameInput()">
+    <!-- Name Entry Screen -->
+    <div id="name-screen">
+      <h2>What’s your name?</h2>
+      <input type="text" id="name-input" placeholder="Enter your name">
+      <button onclick="checkName()">Start</button>
+      <p id="name-error" style="color: red; display: none;">Access denied. Try again.</p>
+    </div>
+  
+    <!-- Game Container -->
+    <div id="game-container" style="display: none;">
+      <h2 id="welcome-message" style="text-align: center; color: crimson;"></h2>
+      <img id="story-image" src="" alt="Story Scene" style="max-width: 100%; display: none;">
+      <video id="story-video" width="100%" autoplay muted loop style="display: none;"></video>
+      <h1 id="story-text">Loading...</h1>
+      <div id="choices-container"></div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+</html>
+
